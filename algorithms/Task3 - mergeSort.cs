@@ -17,7 +17,6 @@ namespace algorithms
             string[] lines = File.ReadAllLines(inputPath);
             int[] nums = Array.ConvertAll(lines[1].Split(new char[] { ' ' }), int.Parse);
             MergeSort(nums);
-            Console.WriteLine("gg");
 
             using (StreamWriter writer = new StreamWriter(outputPath))
             {
@@ -36,26 +35,26 @@ namespace algorithms
 
 
 
-        static void Merge(int[] array, int leftIndex, int middleIndex, int rightIndex)
+        private static void Merge(int[] array, int leftIndex, int middleIndex, int rightIndex)
         {
             string line = leftIndex + " " + rightIndex + " " + array[leftIndex] + " " + array[rightIndex];
             outputLines.Add(line);
 
             var left = leftIndex;
             var right = middleIndex + 1;
-            var tempArray = new int[rightIndex - leftIndex + 1];
+            var newArray = new int[rightIndex - leftIndex + 1];
             var currentIndex = 0;
 
             while ((left <= middleIndex) && (right <= rightIndex))
             {
                 if (array[left] < array[right])
                 {
-                    tempArray[currentIndex] = array[left];
+                    newArray[currentIndex] = array[left];
                     left++;
                 }
                 else
                 {
-                    tempArray[currentIndex] = array[right];
+                    newArray[currentIndex] = array[right];
                     right++;
                 }
 
@@ -64,37 +63,36 @@ namespace algorithms
 
             for (var i = left; i <= middleIndex; i++)
             {
-                tempArray[currentIndex] = array[i];
+                newArray[currentIndex] = array[i];
                 currentIndex++;
             }
 
             for (var i = right; i <= rightIndex; i++)
             {
-                tempArray[currentIndex] = array[i];
+                newArray[currentIndex] = array[i];
                 currentIndex++;
             }
 
-            for (var i = 0; i < tempArray.Length; i++)
+            for (var i = 0; i < newArray.Length; i++)
             {
-                array[leftIndex + i] = tempArray[i];
+                array[leftIndex + i] = newArray[i];
             }
         }
 
-        //сортировка слиянием
-        static int[] MergeSort(int[] array, int lowIndex, int highIndex)
+        private static int[] MergeSort(int[] array, int leftIndex, int rightIndex)
         {
-            if (lowIndex < highIndex)
+            if (leftIndex < rightIndex)
             {
-                var middleIndex = (lowIndex + highIndex) / 2;
-                MergeSort(array, lowIndex, middleIndex);
-                MergeSort(array, middleIndex + 1, highIndex);
-                Merge(array, lowIndex, middleIndex, highIndex);
+                var middleIndex = (leftIndex + rightIndex) / 2;
+                MergeSort(array, leftIndex, middleIndex);
+                MergeSort(array, middleIndex + 1, rightIndex);
+                Merge(array, leftIndex, middleIndex, rightIndex);
             }
 
             return array;
         }
 
-        static int[] MergeSort(int[] array)
+        private static int[] MergeSort(int[] array)
         {
             return MergeSort(array, 0, array.Length - 1);
         }
