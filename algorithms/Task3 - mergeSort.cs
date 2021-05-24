@@ -61,19 +61,19 @@ namespace algorithms
                 currentIndex++;
             }
 
-            for (var i = left; i <= middleIndex; i++)
+            for (int i = left; i <= middleIndex; i++)
             {
                 newArray[currentIndex] = array[i];
                 currentIndex++;
             }
 
-            for (var i = right; i <= rightIndex; i++)
+            for (int i = right; i <= rightIndex; i++)
             {
                 newArray[currentIndex] = array[i];
                 currentIndex++;
             }
 
-            for (var i = 0; i < newArray.Length; i++)
+            for (int i = 0; i < newArray.Length; i++)
             {
                 array[leftIndex + i] = newArray[i];
             }
@@ -83,10 +83,15 @@ namespace algorithms
         {
             if (leftIndex < rightIndex)
             {
-                var middleIndex = (leftIndex + rightIndex) / 2;
+                int middleIndex = (leftIndex + rightIndex) / 2;
                 MergeSort(array, leftIndex, middleIndex);
                 MergeSort(array, middleIndex + 1, rightIndex);
                 Merge(array, leftIndex, middleIndex, rightIndex);
+            }
+            if (leftIndex == rightIndex)
+            {
+                string line = leftIndex + " " + rightIndex + " " + array[leftIndex] + " " + array[rightIndex];
+                outputLines.Add(line);
             }
 
             return array;
