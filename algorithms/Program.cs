@@ -7,6 +7,7 @@ namespace algorithms
         static void Main(string[] args)
         {
             //Task1___minimum_queue.Solution();
+            Task2___antiQuickSort.Solution();
         }
     }
 }
