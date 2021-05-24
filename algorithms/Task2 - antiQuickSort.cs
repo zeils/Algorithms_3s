@@ -4,7 +4,7 @@ using System.IO;
 
 namespace algorithms
 {
-    class Task2___antiQuickSort
+    static class Task2___antiQuickSort
     {
         private static string inputPath = @"..\..\..\files\task_two\\input.txt";
         private static string outputPath = @"..\..\..\files\task_two\\output.txt";
