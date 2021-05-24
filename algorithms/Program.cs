@@ -6,7 +6,7 @@ namespace algorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Task1___minimum_queue.Solution();
         }
     }
 }

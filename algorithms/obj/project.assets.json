@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MS_PC\\Desktop\\Алгоритмы\\algorithms\\algorithms.csproj",
+      "projectUniqueName": "C:\\Users\\MS_PC\\Desktop\\Алгоритмы\\Algorithms_3s\\algorithms\\algorithms.csproj",
       "projectName": "algorithms",
-      "projectPath": "C:\\Users\\MS_PC\\Desktop\\Алгоритмы\\algorithms\\algorithms.csproj",
+      "projectPath": "C:\\Users\\MS_PC\\Desktop\\Алгоритмы\\Algorithms_3s\\algorithms\\algorithms.csproj",
       "packagesPath": "C:\\Users\\MS_PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MS_PC\\Desktop\\Алгоритмы\\algorithms\\obj\\",
+      "outputPath": "C:\\Users\\MS_PC\\Desktop\\Алгоритмы\\Algorithms_3s\\algorithms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

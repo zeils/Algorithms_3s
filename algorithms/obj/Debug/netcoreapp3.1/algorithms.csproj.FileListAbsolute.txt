@@ -1,0 +1,13 @@
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\obj\Debug\netcoreapp3.1\algorithms.csprojAssemblyReference.cache
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\obj\Debug\netcoreapp3.1\algorithms.AssemblyInfoInputs.cache
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\obj\Debug\netcoreapp3.1\algorithms.AssemblyInfo.cs
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\obj\Debug\netcoreapp3.1\algorithms.csproj.CoreCompileInputs.cache
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\bin\Debug\netcoreapp3.1\algorithms.exe
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\bin\Debug\netcoreapp3.1\algorithms.deps.json
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\bin\Debug\netcoreapp3.1\algorithms.runtimeconfig.json
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\bin\Debug\netcoreapp3.1\algorithms.runtimeconfig.dev.json
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\bin\Debug\netcoreapp3.1\algorithms.dll
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\bin\Debug\netcoreapp3.1\algorithms.pdb
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\obj\Debug\netcoreapp3.1\algorithms.dll
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\obj\Debug\netcoreapp3.1\algorithms.pdb
+C:\Users\MS_PC\Desktop\Алгоритмы\Algorithms_3s\algorithms\obj\Debug\netcoreapp3.1\algorithms.genruntimeconfig.cache
